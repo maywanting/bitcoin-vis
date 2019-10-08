@@ -22,7 +22,7 @@ class App extends React.Component {
         };
     }
     componentDidMount() {
-        return fetch('../value.json').then(response => response.json()).then(jsondata => {
+        return fetch('value.json').then(response => response.json()).then(jsondata => {
             let estimated = [];
             let min = [];
             let income = [];
